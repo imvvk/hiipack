@@ -53,7 +53,7 @@ Server.prototype = {
 
 
         this.server = require('http').createServer(app).listen(port);
-
+        console.log("hiiConfig===", config.get());
         if(program.https){
             var hiiConfig = config.get();
 

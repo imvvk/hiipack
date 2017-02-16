@@ -1,1 +1,1 @@
-module.exports="/usr/local/lib/node_modules";
+module.exports="/Users/wk/.nvm/v6.9.4/lib/node_modules"

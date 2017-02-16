@@ -39,7 +39,7 @@ module.exports = {
 
         this.printMessage('access', 'green', true, [
             req.method.white,
-            (req.originalUrl || req.url).grey,
+            (req.originalUrl || req.url).yellow,
             proxy ? ('==> '.bold.white + proxy.grey) : '',
             String(statusCode)[colormap[statusCode] || 'grey'],
             ('(' + time + 'ms' + ')')[time >= 2000 ? 'yellow' : 'grey']
